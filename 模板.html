@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            .box{width:150px;height:150px;background-color: tomato;}
+        </style>
+    </head>
+    <body>
+        <h1>小说标题</h1>
+        <div class="fiction-content" style="background:violet;">
+            <p>
+                这里是小说内容 无弹窗 无广告
+            </p>
+
+        </div>
+        <div class="container">
+            <div class="box" id="surui">
+
+            </div>
+
+        </div>
+    </body>
+    <script>
+        alert('确定删除？');
+        var suruiEle = document.getElementById('surui');
+        console.log(suruiEle)
+        setInterval(function(){
+            suruiEle.innerHTML = "鸟 给你打招呼";
+        }, 1000);
+
+
+    </script>
+</html>
